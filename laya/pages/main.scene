@@ -1,0 +1,6 @@
+{
+    "type":"Scene",
+    "props":{"width":640,"sceneColor":"#000000","sceneBg":"laya/views/main.jpg","height":1136},
+    "child":[
+        ]
+}
