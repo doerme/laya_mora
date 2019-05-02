@@ -1,0 +1,1 @@
+{"type":"Scene","props":{"width":640,"height":1136},"compId":2,"child":[{"type":"Sprite","props":{"y":1029,"x":117,"texture":"mora/index_bt1.png"},"compId":3},{"type":"Sprite","props":{"y":273,"x":63,"texture":"mora/index_logo.png"},"compId":5}],"loadList":["mora/index_bt1.png","mora/index_logo.png"],"loadList3D":[]}
