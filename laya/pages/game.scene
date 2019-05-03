@@ -1,12 +1,12 @@
 {
     "x":0,
     "type":"Scene",
-    "selectedBox":5,
-    "selecteID":13,
+    "selectedBox":7,
+    "selecteID":14,
     "searchKey":"Scene",
     "props":{"width":640,"sceneColor":"#000000","sceneBg":"laya/views/game.jpg","height":1136},
     "nodeParent":-1,
-    "maxID":14,
+    "maxID":15,
     "label":"Scene",
     "isOpen":true,
     "isDirectory":true,
@@ -91,12 +91,26 @@
             "props":{"y":968,"x":289.5,"texture":"mora/gold-wrap.png","name":"mine_gold"},
             "nodeParent":2,
             "label":"mine_gold",
-            "isDirectory":false,
+            "isOpen":true,
+            "isDirectory":true,
             "isAniNode":true,
-            "hasChild":false,
+            "hasChild":true,
             "compId":7,
             "child":[
-                ]
+                {
+                    "x":30,
+                    "type":"Label",
+                    "searchKey":"Label,gold_value",
+                    "props":{"y":6,"x":12,"width":137,"text":"0","name":"gold_value","height":30,"fontSize":30,"color":"#ffffff","align":"right"},
+                    "nodeParent":7,
+                    "label":"gold_value",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":14,
+                    "child":[
+                        ]
+                }]
         },
         {
             "x":15,
